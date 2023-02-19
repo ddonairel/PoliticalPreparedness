@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="itemTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="button" style="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:backgroundTint">@color/colorButton</item>
+    </style>
+
+    <style name="date">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray50</item>
+    </style>
+
+    <style name="subtitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textLink">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/link</item>
+    </style>
+
+</resources>
